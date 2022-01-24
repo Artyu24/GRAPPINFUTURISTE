@@ -118,7 +118,7 @@ void AGRAPPINFUTURISTECharacter::SetupPlayerInputComponent(class UInputComponent
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	// Bind fire event
-	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AGRAPPINFUTURISTECharacter::OnFire);
+	PlayerInputComponent->BindAction("Freeze", IE_Pressed, this, &AGRAPPINFUTURISTECharacter::OnFire);
 
 	// Enable touchscreen input
 	EnableTouchscreenMovement(PlayerInputComponent);
