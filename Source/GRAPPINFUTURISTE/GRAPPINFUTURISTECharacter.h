@@ -23,13 +23,13 @@ class AGRAPPINFUTURISTECharacter : public ACharacter
 	UPROPERTY(VisibleDefaultsOnly, Category=Mesh)
 	USkeletalMeshComponent* Mesh1P;
 
-	/** Gun mesh: 1st person view (seen only by self) */
-	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-	USkeletalMeshComponent* FP_Gun;
+	///** Gun mesh: 1st person view (seen only by self) */
+	//UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	//USkeletalMeshComponent* FP_Gun;
 
-	/** Location on gun mesh where projectiles should spawn. */
-	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-	USceneComponent* FP_MuzzleLocation;
+	///** Location on gun mesh where projectiles should spawn. */
+	//UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	//USceneComponent* FP_MuzzleLocation;
 
 	///** Gun mesh: VR view (attached to the VR controller directly, no arm, just the actual gun) */
 	//UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
