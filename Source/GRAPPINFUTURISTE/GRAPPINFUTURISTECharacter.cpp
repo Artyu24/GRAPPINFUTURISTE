@@ -168,22 +168,22 @@ void AGRAPPINFUTURISTECharacter::OnFire()
 		}
 	}
 
-	// try and play the sound if specified
-	if (FireSound != nullptr)
-	{
-		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-	}
+	//// try and play the sound if specified
+	//if (FireSound != nullptr)
+	//{
+	//	UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+	//}
 
-	// try and play a firing animation if specified
-	if (FireAnimation != nullptr)
-	{
-		// Get the animation object for the arms mesh
-		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
-		if (AnimInstance != nullptr)
-		{
-			AnimInstance->Montage_Play(FireAnimation, 1.f);
-		}
-	}
+	//// try and play a firing animation if specified
+	//if (FireAnimation != nullptr)
+	//{
+	//	// Get the animation object for the arms mesh
+	//	UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+	//	if (AnimInstance != nullptr)
+	//	{
+	//		AnimInstance->Montage_Play(FireAnimation, 1.f);
+	//	}
+	//}
 }
 
 void AGRAPPINFUTURISTECharacter::OnResetVR()

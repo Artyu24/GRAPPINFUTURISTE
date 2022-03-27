@@ -74,13 +74,13 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category=Projectile)
 	TSubclassOf<class AGRAPPINFUTURISTEProjectile> ProjectileClass;
 
-	/** Sound to play each time we fire */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
-	USoundBase* FireSound;
+	///** Sound to play each time we fire */
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
+	//USoundBase* FireSound;
 
-	/** AnimMontage to play each time we fire */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-	UAnimMontage* FireAnimation;
+	///** AnimMontage to play each time we fire */
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	//UAnimMontage* FireAnimation;
 
 	/** Whether to use motion controller location for aiming. */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
